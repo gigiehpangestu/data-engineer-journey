@@ -56,3 +56,31 @@ def find_max(numbers):
     return max_number
 
 print(find_max([3, 9, 1, 7]))
+
+# Latihan List
+angka = [1,3,5,7,9,11]
+print(angka[5])
+angka.append(13)
+print(angka)
+
+# Latihan Dict
+mobil = {"merk":"honda", "warna":"merah", "tahun":"1999"}
+print(mobil["merk"])
+mobil.update({"warna":"hitam"})
+print(mobil)
+mobil["plat_nomor"]="B1234CEK"
+print(mobil)
+
+# Loop
+nilai=[2,5,8,10]
+x = 0
+for n in nilai: 
+    x = x + n
+
+print(x)
+
+# latihan kombinasi
+def info_orang(nama, usia):
+    return f"nama: {nama}, usia: {usia}"
+
+print(info_orang("Gigieh",26))
